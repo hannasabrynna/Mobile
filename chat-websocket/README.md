@@ -1,12 +1,41 @@
-# React + Vite
+# 💬 Chat em Tempo Real com React e WebSocket
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples de **chat para web**, usando **React** no front-end e **WebSocket** no back-end com Node.js.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React (com Vite)
+- Node.js
+- WebSocket (`ws`)
 
-## Expanding the ESLint configuration
+## ⚙️ Como rodar o projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone o projeto
+```bash
+git clone https://github.com/seu-usuario/chat-websocket.git
+cd chat-websocket
+```
+
+### 2. Instale as dependências
+```bash
+npm install
+```
+
+3. Inicie o servidor WebSocket (Ficará rodando em: localhost:8080)
+```bash
+node server.js
+```
+
+4. Em outro terminal rode o front-end React
+```bash
+npm run dev
+```
+
+## ✅Como testar
+
+1. Acesse http://localhost:5173 em duas abas ou navegadores diferentes.
+2. Digite uma mensagem e envie.
+3. A outra aba receberá a mensagem automaticamente (em tempo real).
+
+
+{Desenvolvido por Hanna 💙}
